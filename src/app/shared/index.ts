@@ -1,1 +1,2 @@
-export * from './photo.service';
+export * from './flickr.service';
+export * from './imgur.service';
