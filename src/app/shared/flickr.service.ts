@@ -4,11 +4,11 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/Rx';
 
 @Injectable()
-export class PhotoService {
-  constructor(private http: Http) { };
+export class FlickrService {
+ constructor(private http: Http) { };
 
     search(query: string) {
-        let url = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=9012151640d5486e63780579ff3b9cae&tags=${query}&per_page=12&format=json&nojsoncallback=1`;
+        let url = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=95bfdf66f8b40fb0528d7c950970cae6&tags=${query}&per_page=12&format=json&nojsoncallback=1`;
         return this.http
             .get(url)
             .map(res => res.json())
