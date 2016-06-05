@@ -24,6 +24,9 @@ var barrels = [
     'app',
     'app/shared',
     'app/app',
+    'app/flickr',
+    'app/insta',
+    'app/imgur',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
