@@ -24,6 +24,7 @@ var barrels = [
     'app',
     'app/shared',
     'app/app',
+    'app/flickr',
     'app/insta',
     'app/imgur',
 ];
